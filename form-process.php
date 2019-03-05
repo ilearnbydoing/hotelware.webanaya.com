@@ -5,9 +5,9 @@ $phone = $_POST["phone"];
 $company = $_POST["company"];
 $city = $_POST["city"];
 
-$EmailTo = "amit@ransindia.com,durgesh@webanaya.com,info@hnhtwenty.com";
+$EmailTo = "jatin@rkspl.in,durgesh@webanaya.com,info@hnhtwenty.com";
 $EmailFrom = "info@hnhtwenty.com";
-$Subject = "Rans - You have received New Enquiry";
+$Subject = "Hotelware - You have received New Enquiry";
 
 // prepare email body text
 $Body .= "Name: ";
