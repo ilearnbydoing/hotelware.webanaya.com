@@ -10,9 +10,10 @@ $EmailFrom = "info@hnhtwenty.com";
 $Subject = "Hotelware - You have received New Enquiry";
 
 // prepare email body text
+$Body = "\n";
 $Body .= "Name: ";
-$Body .= $name;
 $Body .= "\n";
+$Body .= $name;
 
 $Body .= "Email: ";
 $Body .= $email;
